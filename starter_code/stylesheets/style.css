@@ -8,3 +8,377 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+
+@media (max-width : 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+#links {
+    display: none;
+
+}
+
+#navbar {
+    height: 50px;
+    padding: 0px 5px 0px 5px;
+    background-color: #540B51;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;    
+    border:none;
+}
+
+#slackLogo {
+    width: 90px;
+    height: 20px;
+}
+
+.button1{
+    width: 30px;
+    height: 30px;
+    background-color :#540B51;
+    border: none;
+}
+
+.button2{
+    width: 30px;
+    height: 30px;
+    background-color :#540B51;
+    border: none;
+}
+
+header{
+    background-color:  #540B51;
+    border: none;
+    ;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family : Montserrat, sans-serif;
+    font-size: 40px;
+    height: 150px;
+    width: 415px;
+}
+
+.p1{
+    text-align: center;
+    font-family : Montserrat, sans-serif;
+    color: orange;
+    height: 40px;
+}
+#p1span{
+    color: white;
+}
+
+#buttons{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+#but1{
+    height: 55px;
+    width: 350px;
+    background-color: white;
+    color: #540B51;
+    font-size: 17px;
+    text-transform: uppercase ;
+    border : none;
+    border-radius: 3%;
+}
+#but2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 55px;
+    width: 350px;
+    background-color: #4285F4 ;
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border : none;
+    border-radius: 3%;
+}
+
+#googleLogo{
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-self: flex-start;
+    background-color: white;
+}
+
+#firstImage{
+    width: 414px;
+    height: 256px;
+}
+
+#firstSec{
+    background-color: #F3EAE2 ;
+    height: 180px;
+}
+#trusted{
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+#lesLogos{
+    width: 414px;
+    height: 100px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+
+
+}
+#airBnbLogo{
+    width: 80px;
+    height: 27px;
+    align-self: center;
+}
+#nasaLogo{
+    width: 50px;
+    height: 40px;
+    align-self: center;
+}
+#uberLogo{
+    width: 48px;
+    height: 20px;   
+    align-self: center;
+}
+#targetLogo{
+    width: 40px;
+    height: 40px;
+    align-self: center;
+}
+#nytLogo{
+    width: 130px;
+    height: 25px;
+    align-self: center;
+}
+#spotifyLogo{
+    width: 80px; 
+    height: 30px; 
+}
+
+#connectedness{
+    width: 380px;
+    height: 350px;
+}
+#divImage{
+    background-color: #F3EAE2;
+}
+
+#div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    background-color: #F3EAE2;
+    font-family: Montserrat, sans-serif ;
+}
+
+h2{
+    font-size: 1.2rem;
+    padding-left: 7px;
+    font-size: bolder ;
+    font-family: Montserrat, sans-serif ;
+}
+
+p{
+    font-size: 15px;
+    text-align: left;
+    padding-left: 7px;
+    font-family: Montserrat, sans-serif ;
+}
+
+.learnLink{
+    padding-left: 7px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #2E71A6;
+    font-family: Montserrat, sans-serif ;
+}
+
+#thirdSection{
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    height : 670px
+}
+#image2{
+    width: 407px;
+    padding-left: 7px;
+    height: 350px;
+}
+#chooseDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+#section4{
+    background-color: #F3EAE2;
+}
+
+#image3{
+    width: 380px;
+    height: 350px;
+}
+
+#moveDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+}
+
+#section5{
+    height: 700px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat, sans-serif ;
+    text-align: center;
+}
+
+#section5 p {
+    text-align: center;
+    
+}
+
+#section5 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 414px;
+    height: 130px;
+}
+
+#button1{
+    background-color: #540B51;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase ;
+    border : none;
+    border-radius: 3%;
+    height: 55px;
+    width: 350px;
+    align-self: center;
+
+}
+#button2{
+    height: 55px;
+    width: 350px;
+    background-color: white;
+    color: #540B51;
+    font-size: 15px;
+    text-transform: uppercase ;
+    border : solid 1px;
+    border-radius: 3%;
+    align-self: center;
+}
+
+#list{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.num85{
+    color: #540B51;
+    font-size: 40px;
+}
+.sentence{
+    font-size: 12px;
+    font-weight: bolder;
+}
+#section6{
+    height: 250px;
+    background-color: #540B51;
+    border-bottom-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#welcome{
+    align-self: flex-start;
+    font-size: 1.5rem;
+    font-weight: bolder ;
+    font-family: Montserrat, sans-serif ;
+    align-self: center;
+    color :white;
+    text-align: center;
+}
+
+#button3{
+    background-color: #540B51;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase ;
+    border : solid 1px white;;
+    border-radius: 3%;
+    height: 50px;
+    width: 350px;
+    align-self: center;
+}
+
+#button4{
+    height: 50px;
+    width: 350px;
+    background-color: white;
+    color: #540B51;
+    font-size: 15px;
+    text-transform: uppercase ;
+    border : solid 1px;
+    border-radius: 3%;
+    align-self: center;
+}
+.footer{
+    height : 700px;
+    font-family: Montserrat, sans-serif ;
+}
+
+#slackLogo2{
+    width : 30px
+}
+#table{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#row{
+    font-size: 10px;
+}
+
+
+.liste{
+    list-style-type: none;
+    
+}
+
+#titleTable{
+    font-weight: bolder ;}
